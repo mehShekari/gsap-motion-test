@@ -1,0 +1,9 @@
+{
+  "name":"gsap-motion-card-ab",
+  "stack":"React + Vite + GSAP",
+  "viewport":{"desktop":{"width":1440,"height":900},"mobile":{"width":390,"height":844}},
+  "arms":{"A":"with-skill","B":"without-skill"},
+  "runs_per_arm":1,
+  "independent_grader":true,
+  "weights":{"motion_quality":30,"gsap_architecture":20,"choreography":15,"responsive":10,"accessibility":10,"performance":10,"maintainability":5}
+}
